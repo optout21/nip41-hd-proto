@@ -46,9 +46,6 @@ pub enum Error {
     /// No more levels left, ran out of pre-defined keys
     #[error("No more levels left, ran out of pre-defined keys")]
     NoMoreKeyLevels,
-    /// Error generating keys from seed
-    #[error(transparent)]
-    Bip32(#[from] bip32::Error),
     /// Error processing BIP39 mnemonic
     #[error(transparent)]
     Bip39(#[from] bip39::Error),
