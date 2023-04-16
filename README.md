@@ -1,21 +1,12 @@
 # NIP-41 "HD" Key Invalidation Prototype
 
-TODO
-
-New PR vs existing (158)
-
-Max no limitation, 256, due to impl detail
-
-Can earlier be reconstruccted? security
-
-Why not use a fix len derivation path instead of index?
-
-
-
 NIP-41 is a proposal for a scheme whereby a Nostr identity key can be invalidated to a new one safely.
-https://github.com/nostr-protocol/nips/pull/158
+https://github.com/nostr-protocol/nips/pull/450
 
 __WARNING:__ This is a prototype implementation, use it only with test keys!
+
+Previous version of this NIP/proto with custom crypto scheme: https://github.com/catenocrypt/nip41-proto0
+
 
 ## Details
 
